@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,3 +38,4 @@ Route::get('/Editdata', function () {
 Route::get('/logout', function () {
     return view('Pages/logout');
 })->name('logout');
+Route::post('/register', [User::class, 'store']);

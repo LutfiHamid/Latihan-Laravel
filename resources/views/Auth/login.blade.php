@@ -21,7 +21,7 @@
           </div>   
           
           <a class="btn btn-primary w-100 py-2" href="#" role="button">sign in</a>
-    </div>
+          <a href="/register" class="btn btn-warning"> buat akun </a>
 </div>
 
 @endsection
